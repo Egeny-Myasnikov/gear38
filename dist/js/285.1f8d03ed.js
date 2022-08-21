@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue"]=self["webpackChunkvue"]||[]).push([[285],{285:function(e,n,u){u.r(n),u.d(n,{default:function(){return s}});var r=u(252);function t(e,n,u,t,a,c){const o=(0,r.up)("Header"),s=(0,r.up)("Footer");return(0,r.wg)(),(0,r.iD)(r.HY,null,[(0,r.Wm)(o),(0,r.Wm)(s)],64)}var a={name:"ContactsPage"},c=u(744);const o=(0,c.Z)(a,[["render",t]]);var s=o}}]);
+//# sourceMappingURL=285.1f8d03ed.js.map
