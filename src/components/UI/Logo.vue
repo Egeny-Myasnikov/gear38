@@ -1,18 +1,15 @@
 <template>
   <div class="logo">
-    <Icon idIcon="gearGroup" className="svg-medium logo-svg" />
+    <Icon idIcon="gear" className="svg-medium logo-svg" />
     <strong class="logo-title">
-      LOGO
+      Gear 38
     </strong>
   </div>
 </template>
 
 <script>
-import Icon from './Icon.vue';
 export default {
   name: "Logo",
-  components: { Icon },
-
 }
 </script>
 
@@ -21,37 +18,65 @@ export default {
   display: grid;
   justify-content: center;
   align-items: center;
-  background-color: var(--thirdColor);
-  border-radius: var(--radius);
-  padding: 5px;
-  padding-left: 10px;
 
   &-svg {
-    fill: var(--whiteColor);
-    height: 40px;
+
+    fill: var(--thirdColor);
+    animation: rotate 20s infinite forwards linear;
   }
 
+
+
   &-title {
-    color: var(--whiteColor);
-    letter-spacing:2px;
+    color: var(--thirdColor);
+    font-weight: 900;
+    letter-spacing: 2px;
+    animation: ls 15s infinite forwards alternate linear;
+
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+
+
+  }
+
+  to {
+    transform: rotate(360deg);
+
+  }
+}
+
+@keyframes ls {
+  from {
+    letter-spacing: .2em;
+    filter: hue-rotate(0deg);
+
+  }
+
+  to {
+    letter-spacing: .5em;
+    filter: hue-rotate(90deg);
   }
 }
 
 @media screen and(max-width:790px) {
- .logo {
-      width: 40px;
-      height: 40px;
-      padding: 5px 7px;
+  .logo {
+    width: 40px;
+    height: 40px;
+    padding: 5px 7px;
 
-      &-svg {
-        width: 110%;
-        height: 110%;
-      }
-
-      &-title {
-        font-size: .3em;
-      }
+    &-svg {
+      width: 100%;
+      height: 120%;
     }
+
+    &-title {
+      font-size: .3em;
+    }
+  }
 
 }
 </style>
