@@ -8,7 +8,6 @@
 </template>
 
 <script>
-// @ is an alias to /src  
 import Portfolio from '@/components/sections/Portfolio/Portfolio.vue'
 
 export default {
@@ -28,10 +27,7 @@ export default {
     }
   },
   methods: {
-    // getType(type){
-    //   this.dataType = this.$store.state.portfolioPageData.filter(data => data.type === type)
-    //   if(this.dataType.length === 0) this.dataType = this.$store.state.portfolioPageData
-    // }
+
   },
   computed: {
     getType() {

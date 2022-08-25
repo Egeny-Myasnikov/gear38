@@ -11,7 +11,7 @@ export default createStore({
         alt: "auto",
         github: "",
         link: "",
-        cost: "5`000 руб",
+        cost: "5`500 руб",
         stack: "HTML, CSS, JS",
         time: "4 дня",
         type:'Визитка'
@@ -24,7 +24,7 @@ export default createStore({
         alt: "grid",
         github: "",
         link: "",
-        cost: "5`000 руб",
+        cost: "5`500 руб",
         stack: "HTML, CSS",
         time: "4 дня",
         type:'Визитка'
@@ -37,7 +37,7 @@ export default createStore({
         alt: "lawyer",
         github: "",
         link: "",
-        cost: "5`000 руб",
+        cost: "5`500 руб",
         stack: "HTML, CSS",
         time: "4 дня",
         type:'Визитка'
