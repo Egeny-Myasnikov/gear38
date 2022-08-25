@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkvue"]=self["webpackChunkvue"]||[]).push([[443],{316:function(e,n,t){t.r(n),t.d(n,{default:function(){return i}});var u=t(252);const a=(0,u._)("section",{class:"about"},[(0,u._)("div",{class:"__container"},[(0,u._)("h1",{class:"page-title"},"Обо мне")])],-1);function s(e,n,t,s,c,r){const o=(0,u.up)("Header"),i=(0,u.up)("Footer");return(0,u.wg)(),(0,u.iD)(u.HY,null,[(0,u.Wm)(o),a,(0,u.Wm)(i)],64)}var c={name:"AboutPage"},r=t(744);const o=(0,r.Z)(c,[["render",s]]);var i=o}}]);
-//# sourceMappingURL=about.14b4ddb7.js.map
