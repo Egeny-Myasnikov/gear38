@@ -8,12 +8,3 @@ module.exports = {
     ? '/gear38/'
     : '/'
 }
-
-module.exports = {
-  // ...Other Vue config options here, possibly
-  pwa: {
-    name: "gear38",
-    themeColor: "#493CA6",
-    short_name: "gear38"
-  }
-};
