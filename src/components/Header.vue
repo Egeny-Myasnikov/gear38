@@ -30,6 +30,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.header{
+  background:linear-gradient(var(--forthColor), transparent) ;
+}
 .container{
   display: flex;
   justify-content: space-between;

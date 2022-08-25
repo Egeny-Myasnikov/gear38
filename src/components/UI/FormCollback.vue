@@ -54,9 +54,7 @@ export default {
     width: 100%;
     display: grid;
     gap: 20px;
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
-    border-radius: var(--radius);
+   
 }
 
 @media screen and(max-width:700px) {

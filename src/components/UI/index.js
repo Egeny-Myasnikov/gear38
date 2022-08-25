@@ -6,6 +6,7 @@ import FormCollback from "@/components/UI/FormCollback";
 import InputCheckbox from "@/components/UI/InputCheckbox";
 import InputPhone from "@/components/UI/InputPhone";
 import ModalWindow from "@/components/UI/ModalWindow";
+import Filter from "@/components/UI/Filter";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
@@ -20,4 +21,5 @@ export default [
   ButtonSecondary,
   InputCheckbox,
   InputPhone,
+  Filter
 ];

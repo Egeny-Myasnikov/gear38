@@ -16,7 +16,7 @@
         </div>
         <ModalWindow v-model:show="modalVisible" title="Свяжитесь со мной">
             <Tel />
-            <FormCollback />
+            <FormCollback class="modal-form-collback" />
         </ModalWindow>
     </section>
 </template>
@@ -44,12 +44,14 @@ export default {
 
 .home-greeting {
    
-
     &-container {
         display: flex;
         flex-direction: row-reverse;
         gap: 20px;
     }
+}
+.modal-form-collback{
+    border-top:1px solid var(--secondColor);
 }
 
 .subTitle {

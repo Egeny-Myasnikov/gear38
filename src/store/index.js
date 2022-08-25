@@ -14,7 +14,7 @@ export default createStore({
         cost: "5`000 руб",
         stack: "HTML, CSS, JS",
         time: "4 дня",
-        type:'businessCard'
+        type:'Визитка'
       },
       {
         id: 1,
@@ -27,7 +27,7 @@ export default createStore({
         cost: "5`000 руб",
         stack: "HTML, CSS",
         time: "4 дня",
-        type:'businessCard'
+        type:'Визитка'
       },
       {
         id: 2,
@@ -40,7 +40,7 @@ export default createStore({
         cost: "5`000 руб",
         stack: "HTML, CSS",
         time: "4 дня",
-        type:'businessCard'
+        type:'Визитка'
       },
       {
         id: 3,
@@ -53,7 +53,7 @@ export default createStore({
         cost: "10`000 руб",
         stack: "HTML, CSS, JS",
         time: "7 дней",
-        type:'businessCard'
+        type:'Визитка'
       },
       {
         id: 4,
@@ -66,7 +66,7 @@ export default createStore({
         cost: "15`000 руб",
         stack: "HTML, CSS, JS, WordPress",
         time: "10 дней",
-        type:'catalog'
+        type:'Каталог'
       },
       {
         id: 5,
@@ -79,7 +79,7 @@ export default createStore({
         cost: "5`000 руб",
         stack: "HTML, CSS",
         time: "4 дня",
-        type:'businessCard'
+        type:'Визитка'
       },
       {
         id: 6,
@@ -92,7 +92,7 @@ export default createStore({
         cost: "5`000 руб",
         stack: "HTML, CSS",
         time: "4 дня",
-        type:'businessCard'
+        type:'Визитка'
       },
     ],
   },

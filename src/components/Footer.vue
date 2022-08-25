@@ -33,7 +33,7 @@
                         </div>
                     </div>
                 </div>
-                <FormCollback />
+                <FormCollback class="form-collback"/>
             </div>
         </div>
     </footer>
@@ -59,6 +59,12 @@ export default {
 .footer {
     margin-top: 100px;
     padding-bottom: 100px;
+    background:linear-gradient(transparent, var(--secondColor));
+.form-collback{
+     background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius);
+}
 
     .contact {
         display: flex;
@@ -90,7 +96,7 @@ export default {
                         width: 18%;
                         height: 100%;
                         border-radius: 30px;
-                        background-color: rgba(0, 0, 0, 0.1);
+                        background-color: rgb(255, 255, 255);
                         z-index: 0;
                         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 53%, 0% 0%);
                         transition: var(--trans05);
